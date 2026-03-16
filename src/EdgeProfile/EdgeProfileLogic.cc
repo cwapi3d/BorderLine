@@ -28,7 +28,6 @@ namespace {
 
     AffectedPoints getAffectedPoints(const EEdgePosition priorityPos, const EEdgePosition dependentPos)
     {
-        // Logic derived from original code:
         // BOTTOM + RIGHT -> Priority(Start), Dependent(End)
         // BOTTOM + LEFT  -> Priority(End),   Dependent(Start)
         // TOP + LEFT     -> Priority(Start), Dependent(End)
