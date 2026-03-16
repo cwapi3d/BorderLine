@@ -10,15 +10,6 @@
 
 #pragma once
 
-// #include <QtCore/qglobal.h>
-//
-// // Replace 'USER_INTERFACE_LIB' with a unique name for your UI library target
-// #if defined(USER_INTERFACE_LIB)
-// #  define USER_INTERFACE_EXPORT Q_DECL_EXPORT
-// #else
-// #  define USER_INTERFACE_EXPORT Q_DECL_IMPORT
-// #endif
-
 #include <borderline/user_interface/user_interface_export.h>
 
 #include <QClipboard>
@@ -91,7 +82,4 @@ private:  // NOLINT(*-redundant-access-specifiers)
     int mLastExportEndClip = 0;
     std::function<uint32_t(borderline::edgeprofile::Number)> mColorCallback;
     std::function<std::tuple<uint8_t, uint8_t, uint8_t>(borderline::edgeprofile::Number)> mColorToRGBFunc;
-
-    // Export UI elements (could be in .ui file but adding programmatically for now if needed)
-    // Assuming ui->pbn_ok is "Generate" and we repurpose ui->cbb_export or add a button
 };
