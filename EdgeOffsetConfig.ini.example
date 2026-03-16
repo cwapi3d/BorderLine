@@ -1,0 +1,17 @@
+# BorderLine Edge Offset Configuration
+# 
+# This file defines the offset distances (in millimeters) for different edge types
+# when generating edge profiles.
+#
+# The configuration will be automatically created with default values if it doesn't exist.
+# You can modify these values and the plugin will load them on next startup.
+
+[EdgeOffsets]
+# Distance for COUNTERFLOW edges (mm)
+CounterflowDistance=20.0
+
+# Distance for CONTINOUS edges (mm)
+ContinousDistance=18.0
+
+# Distance for MITER edges (mm)
+MiterDistance=20.0
