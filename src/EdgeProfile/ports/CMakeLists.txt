@@ -1,0 +1,12 @@
+target_sources(${PROJECT_NAME}
+        PUBLIC
+        IAttributeControlPort.hh
+        IElementControlPort.hh
+        IGeometryControlPort.hh
+        IEdgeImageGenerator.hh
+        IEdgeOffsetStrategy.hh
+        ISortingStrategyFactory.hh
+        IEdgeProfileWorkflowService.hh
+        IConfigurationPort.hh
+        IVisualizationControlPort.hh
+)

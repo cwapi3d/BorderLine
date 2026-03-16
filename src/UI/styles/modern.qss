@@ -1,0 +1,162 @@
+/* BorderLine Modern Flat Design Stylesheet */
+
+QDialog {
+  background-color: #f5f5f5;
+}
+
+QFrame {
+  background-color: white;
+  border-radius: 8px;
+}
+
+QLabel#lab_title {
+  font-family: 'Segoe UI', Arial;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #2c3e50;
+  background: white;
+  border: none;
+  border-bottom: 2px solid #3498db;
+  padding: 8px;
+}
+
+QPushButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  min-height: 26px;
+}
+
+QPushButton:hover {
+  background-color: #2980b9;
+}
+
+QPushButton:pressed {
+  background-color: #21618c;
+}
+
+QPushButton:disabled {
+  background-color: #bdc3c7;
+  color: #7f8c8d;
+}
+
+QPushButton#pbn_cancel {
+  background-color: #95a5a6;
+}
+
+QPushButton#pbn_cancel:hover {
+  background-color: #7f8c8d;
+}
+
+QPushButton#pbn_path {
+  background-color: #27ae60;
+}
+
+QPushButton#pbn_path:hover {
+  background-color: #229954;
+}
+
+/*
+QPushButton#pbn_ok {
+  font-weight: 600;
+  font-size: 11pt;
+}
+
+*/
+QCheckBox {
+  spacing: 6px;
+  padding: 2px;
+}
+
+QCheckBox::indicator {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: white;
+}
+
+QCheckBox::indicator:checked {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+QCheckBox::indicator:hover {
+  border-color: #3498db;
+}
+
+QComboBox {
+  border: 1px solid #dcdde1;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: white;
+  min-height: 24px;
+}
+
+QComboBox:hover {
+  border-color: #3498db;
+}
+
+QComboBox::drop-down {
+  border: none;
+  width: 20px;
+}
+
+QSpinBox {
+  border: 1px solid #dcdde1;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: white;
+  min-height: 24px;
+}
+
+QSpinBox:hover {
+  border-color: #3498db;
+}
+
+QLabel {
+  color: #2c3e50;
+ /* font-size: 10pt;*/
+}
+
+QLabel#lab_info {
+  color: #7f8c8d;
+  font-size: 8pt;
+  font-style: italic;
+  padding: 8px;
+}
+
+QToolButton#tbn_help {
+  background-color: transparent;
+  border: none;
+  color: #3498db;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+QToolButton#tbn_help:hover {
+  color: #2980b9;
+  background-color: #ecf0f1;
+}
+
+QGroupBox {
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  margin-top: 12px;
+  padding-top: 8px;
+  background-color: white;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  left: 12px;
+  padding: 0 8px;
+  color: #2c3e50;
+  background-color: white;
+}
+
+QGroupBox#groupPreview {
+  border-color: #3498db;
+}

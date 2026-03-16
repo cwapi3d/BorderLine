@@ -1,0 +1,20 @@
+target_sources(${PROJECT_NAME}
+        PRIVATE
+        EdgeImageService.cc
+        TriangleSymbolService.cc
+        ShopDrawingExportService.cc
+        ElementGroupProcessingService.cc
+        EdgeProfileWorkflowService.cc
+        ProductionNumberGuard.cc
+        AttributeMappingService.cc
+        ColorApplicationService.cc
+        PUBLIC
+        EdgeImageService.hh
+        TriangleSymbolService.hh
+        ShopDrawingExportService.hh
+        ElementGroupProcessingService.hh
+        EdgeProfileWorkflowService.hh
+        ProductionNumberGuard.hh
+        AttributeMappingService.hh
+        ColorApplicationService.hh
+)
